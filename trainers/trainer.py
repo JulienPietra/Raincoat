@@ -20,7 +20,7 @@ from models.models import get_backbone_class
 from algorithms.utils import AverageMeter
 from sklearn.metrics import f1_score
 torch.backends.cudnn.benchmark = True  
-np.warnings.filterwarnings('ignore', category=np.VisibleDeprecationWarning)        
+warnings.filterwarnings('ignore', category=np.VisibleDeprecationWarning)        
 
 class cross_domain_trainer(object):
     """
