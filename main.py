@@ -4,7 +4,7 @@ import warnings
 import sklearn.exceptions
 import pickle
 from sklearn.manifold import TSNE
-#warnings.filterwarnings("ignore", category=sklearn.exceptions.UndefinedMetricWarning)
+warnings.filterwarnings("ignore", category=sklearn.exceptions.UndefinedMetricWarning)
 from trainers.trainer import cross_domain_trainer
 # from trainers.trainer2 import cross_domain_trainer_ours
 
